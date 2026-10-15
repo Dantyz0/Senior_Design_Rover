@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/moran/duckcatcher_ws/src/rover_moveit_config" FILES "/home/moran/duckcatcher_ws/build/rover_moveit_config/ament_cmake_index/share/ament_index/resource_index/packages/rover_moveit_config" "DESTINATION" "share/ament_index/resource_index/packages")

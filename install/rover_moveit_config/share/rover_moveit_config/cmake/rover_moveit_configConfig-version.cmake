@@ -1,0 +1,1 @@
+/home/moran/duckcatcher_ws/build/rover_moveit_config/ament_cmake_core/rover_moveit_configConfig-version.cmake

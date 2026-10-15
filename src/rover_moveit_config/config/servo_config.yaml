@@ -1,0 +1,26 @@
+/**:
+  ros__parameters:
+    use_sim_time: true
+    moveit_servo:
+      move_group_name: "arm"
+      is_primary_planning_scene_monitor: true
+      robot_link_command_frame: "roarm_base_link"
+      ee_frame_name: "gripper_link"
+      
+      command_in_type: "speed_units"
+      cartesian_command_in_topic: "/delta_twist_cmds"
+      joint_command_in_topic: "/delta_joint_cmds"
+      command_out_type: "trajectory_msgs/JointTrajectory"
+      command_out_topic: "/arm_controller/joint_trajectory"
+      joint_topic: "/joint_states"
+      
+      publish_period: 0.01        # <--- Lowered to 0,01
+      max_expected_latency: 0.2   # <--- Added this new safety buffer
+      low_pass_filter_coeff: 2.0
+      linear_command_scale_factor: 0.2
+      rotational_command_scale_factor: 0.2
+      
+      check_collisions: true
+      collision_check_rate: 10.0
+      self_collision_proximity_threshold: 0.01
+      scene_collision_proximity_threshold: 0.02

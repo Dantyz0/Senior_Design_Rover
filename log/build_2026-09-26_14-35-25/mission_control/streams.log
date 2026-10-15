@@ -1,0 +1,22 @@
+[2.055s] Invoking command in '/home/moran/duckcatcher_ws/build/mission_control': PYTHONPATH=/home/moran/duckcatcher_ws/build/mission_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/moran/duckcatcher_ws/install/mission_control/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/moran/duckcatcher_ws/build/mission_control/build --no-deps symlink_data
+[2.378s] running develop
+[2.543s] running egg_info
+[2.561s] creating mission_control.egg-info
+[2.562s] writing mission_control.egg-info/PKG-INFO
+[2.563s] writing dependency_links to mission_control.egg-info/dependency_links.txt
+[2.563s] writing entry points to mission_control.egg-info/entry_points.txt
+[2.563s] writing requirements to mission_control.egg-info/requires.txt
+[2.563s] writing top-level names to mission_control.egg-info/top_level.txt
+[2.567s] writing manifest file 'mission_control.egg-info/SOURCES.txt'
+[2.605s] reading manifest file 'mission_control.egg-info/SOURCES.txt'
+[2.606s] writing manifest file 'mission_control.egg-info/SOURCES.txt'
+[2.627s] running build_ext
+[2.629s] Creating /home/moran/duckcatcher_ws/install/mission_control/lib/python3.14/site-packages/mission-control.egg-link (link to .)
+[2.630s] Installing controller script to /home/moran/duckcatcher_ws/install/mission_control/lib/mission_control
+[2.633s] 
+[2.633s] Installed /home/moran/duckcatcher_ws/build/mission_control
+[2.634s] running symlink_data
+[2.634s] creating /home/moran/duckcatcher_ws/install/mission_control/share/ament_index/resource_index/packages
+[2.635s] symbolically linking /home/moran/duckcatcher_ws/build/mission_control/resource/mission_control -> /home/moran/duckcatcher_ws/install/mission_control/share/ament_index/resource_index/packages
+[2.636s] symbolically linking /home/moran/duckcatcher_ws/build/mission_control/package.xml -> /home/moran/duckcatcher_ws/install/mission_control/share/mission_control
+[2.711s] Invoked command in '/home/moran/duckcatcher_ws/build/mission_control' returned '0': PYTHONPATH=/home/moran/duckcatcher_ws/build/mission_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/moran/duckcatcher_ws/install/mission_control/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/moran/duckcatcher_ws/build/mission_control/build --no-deps symlink_data

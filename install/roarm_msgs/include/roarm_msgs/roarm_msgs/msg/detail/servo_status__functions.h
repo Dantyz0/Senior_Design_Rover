@@ -1,0 +1,1 @@
+/home/moran/duckcatcher_ws/build/roarm_msgs/rosidl_generator_c/roarm_msgs/msg/detail/servo_status__functions.h

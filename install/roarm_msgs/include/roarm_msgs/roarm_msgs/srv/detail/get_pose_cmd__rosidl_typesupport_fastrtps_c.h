@@ -1,0 +1,1 @@
+/home/moran/duckcatcher_ws/build/roarm_msgs/rosidl_typesupport_fastrtps_c/roarm_msgs/srv/detail/get_pose_cmd__rosidl_typesupport_fastrtps_c.h

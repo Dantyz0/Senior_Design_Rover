@@ -1,0 +1,37 @@
+[1.785s] Invoking command in '/home/moran/duckcatcher_ws/build/roarm_driver': PYTHONPATH=/home/moran/duckcatcher_ws/build/roarm_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/moran/duckcatcher_ws/install/roarm_driver/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/moran/duckcatcher_ws/build/roarm_driver/build
+[2.068s] /usr/lib/python3/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[2.068s]   warnings.warn(msg)
+[2.233s] running develop
+[2.466s] Removing /home/moran/duckcatcher_ws/install/roarm_driver/lib/python3.14/site-packages/roarm-driver.egg-link (link to .)
+[2.602s] Invoked command in '/home/moran/duckcatcher_ws/build/roarm_driver' returned '0': PYTHONPATH=/home/moran/duckcatcher_ws/build/roarm_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/moran/duckcatcher_ws/install/roarm_driver/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/moran/duckcatcher_ws/build/roarm_driver/build
+[2.611s] Invoking command in '/home/moran/duckcatcher_ws/src/roarm_driver': PYTHONPATH=/home/moran/duckcatcher_ws/build/roarm_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/moran/duckcatcher_ws/install/roarm_driver/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/roarm_driver build --build-base /home/moran/duckcatcher_ws/build/roarm_driver/build install --record /home/moran/duckcatcher_ws/build/roarm_driver/install.log --install-scripts $base/lib/roarm_driver --single-version-externally-managed install_data --force
+[2.923s] /usr/lib/python3/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[2.923s]   warnings.warn(msg)
+[3.082s] running egg_info
+[3.105s] writing ../../build/roarm_driver/roarm_driver.egg-info/PKG-INFO
+[3.106s] writing dependency_links to ../../build/roarm_driver/roarm_driver.egg-info/dependency_links.txt
+[3.107s] writing entry points to ../../build/roarm_driver/roarm_driver.egg-info/entry_points.txt
+[3.108s] writing requirements to ../../build/roarm_driver/roarm_driver.egg-info/requires.txt
+[3.108s] writing top-level names to ../../build/roarm_driver/roarm_driver.egg-info/top_level.txt
+[3.162s] reading manifest file '../../build/roarm_driver/roarm_driver.egg-info/SOURCES.txt'
+[3.164s] writing manifest file '../../build/roarm_driver/roarm_driver.egg-info/SOURCES.txt'
+[3.164s] running build
+[3.164s] running build_py
+[3.165s] copying roarm_driver/__init__.py -> /home/moran/duckcatcher_ws/build/roarm_driver/build/lib/roarm_driver
+[3.166s] copying roarm_driver/roarm_driver.py -> /home/moran/duckcatcher_ws/build/roarm_driver/build/lib/roarm_driver
+[3.167s] running install
+[3.172s] running install_lib
+[3.196s] creating /home/moran/duckcatcher_ws/install/roarm_driver/lib/python3.14/site-packages/roarm_driver
+[3.197s] copying /home/moran/duckcatcher_ws/build/roarm_driver/build/lib/roarm_driver/__init__.py -> /home/moran/duckcatcher_ws/install/roarm_driver/lib/python3.14/site-packages/roarm_driver
+[3.197s] copying /home/moran/duckcatcher_ws/build/roarm_driver/build/lib/roarm_driver/roarm_driver.py -> /home/moran/duckcatcher_ws/install/roarm_driver/lib/python3.14/site-packages/roarm_driver
+[3.198s] byte-compiling /home/moran/duckcatcher_ws/install/roarm_driver/lib/python3.14/site-packages/roarm_driver/__init__.py to __init__.cpython-314.pyc
+[3.200s] byte-compiling /home/moran/duckcatcher_ws/install/roarm_driver/lib/python3.14/site-packages/roarm_driver/roarm_driver.py to roarm_driver.cpython-314.pyc
+[3.201s] running install_data
+[3.201s] copying resource/roarm_driver -> /home/moran/duckcatcher_ws/install/roarm_driver/share/ament_index/resource_index/packages
+[3.202s] copying package.xml -> /home/moran/duckcatcher_ws/install/roarm_driver/share/roarm_driver
+[3.202s] running install_egg_info
+[3.228s] Copying ../../build/roarm_driver/roarm_driver.egg-info to /home/moran/duckcatcher_ws/install/roarm_driver/lib/python3.14/site-packages/roarm_driver-0.0.0-py3.14.egg-info
+[3.232s] running install_scripts
+[3.361s] Installing roarm_driver script to /home/moran/duckcatcher_ws/install/roarm_driver/lib/roarm_driver
+[3.362s] writing list of installed files to '/home/moran/duckcatcher_ws/build/roarm_driver/install.log'
+[3.469s] Invoked command in '/home/moran/duckcatcher_ws/src/roarm_driver' returned '0': PYTHONPATH=/home/moran/duckcatcher_ws/build/roarm_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/moran/duckcatcher_ws/install/roarm_driver/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/roarm_driver build --build-base /home/moran/duckcatcher_ws/build/roarm_driver/build install --record /home/moran/duckcatcher_ws/build/roarm_driver/install.log --install-scripts $base/lib/roarm_driver --single-version-externally-managed install_data --force

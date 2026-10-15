@@ -1,0 +1,1 @@
+/home/moran/duckcatcher_ws/src/rover_moveit_config/launch/setup_assistant.launch.py

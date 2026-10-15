@@ -1,0 +1,80 @@
+[0.106s] Invoking command in '/home/moran/duckcatcher_ws/build/roarm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moran/duckcatcher_ws/install/mission_control:/opt/ros/lyrical /usr/bin/cmake /home/moran/duckcatcher_ws/src/roarm_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/moran/duckcatcher_ws/install/roarm_description
+[1.181s] -- The C compiler identification is GNU 15.2.0
+[1.182s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[1.182s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[1.182s]   CMake.
+[1.183s] 
+[1.183s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[1.183s]   to tell CMake that the project requires at least <min> but has been updated
+[1.184s]   to work with policies introduced by <max> or earlier.
+[1.184s] 
+[1.184s] [0m
+[1.944s] -- The CXX compiler identification is GNU 15.2.0
+[2.688s] -- Detecting C compiler ABI info
+[3.097s] -- Detecting C compiler ABI info - done
+[3.131s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.133s] -- Detecting C compile features
+[3.134s] -- Detecting C compile features - done
+[3.179s] -- Detecting CXX compiler ABI info
+[3.561s] -- Detecting CXX compiler ABI info - done
+[3.593s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.594s] -- Detecting CXX compile features
+[3.596s] -- Detecting CXX compile features - done
+[3.709s] -- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[4.516s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.671s] -- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)
+[5.020s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.021s] -- Configured 'flake8' exclude dirs and/or files: 
+[5.023s] -- Added test 'lint_cmake' to check CMake code style
+[5.028s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.035s] -- Added test 'xmllint' to check XML markup files
+[5.045s] -- Configuring done (4.8s)
+[5.061s] -- Generating done (0.0s)
+[5.065s] -- Build files have been written to: /home/moran/duckcatcher_ws/build/roarm_description
+[5.073s] Invoked command in '/home/moran/duckcatcher_ws/build/roarm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moran/duckcatcher_ws/install/mission_control:/opt/ros/lyrical /usr/bin/cmake /home/moran/duckcatcher_ws/src/roarm_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/moran/duckcatcher_ws/install/roarm_description
+[5.075s] Invoking command in '/home/moran/duckcatcher_ws/build/roarm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moran/duckcatcher_ws/install/mission_control:/opt/ros/lyrical /usr/bin/cmake --build /home/moran/duckcatcher_ws/build/roarm_description -- -j16 -l16
+[5.141s] Invoked command in '/home/moran/duckcatcher_ws/build/roarm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moran/duckcatcher_ws/install/mission_control:/opt/ros/lyrical /usr/bin/cmake --build /home/moran/duckcatcher_ws/build/roarm_description -- -j16 -l16
+[5.143s] Invoking command in '/home/moran/duckcatcher_ws/build/roarm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moran/duckcatcher_ws/install/mission_control:/opt/ros/lyrical /usr/bin/cmake --install /home/moran/duckcatcher_ws/build/roarm_description
+[5.159s] -- Install configuration: ""
+[5.159s] -- Execute custom install script
+[5.166s] -- Symlinking: /home/moran/duckcatcher_ws/install/roarm_description/share/roarm_description/launch/display.launch.py
+[5.184s] -- Symlinking: /home/moran/duckcatcher_ws/install/roarm_description/share/roarm_description/launch/gazebo.launch.py
+[5.201s] -- Symlinking: /home/moran/duckcatcher_ws/install/roarm_description/share/roarm_description/meshes/roarm_m2/base_link.stl
+[5.220s] -- Symlinking: /home/moran/duckcatcher_ws/install/roarm_description/share/roarm_description/meshes/roarm_m2/gripper_link.stl
+[5.239s] -- Symlinking: /home/moran/duckcatcher_ws/install/roarm_description/share/roarm_description/meshes/roarm_m2/link1.stl
+[5.255s] -- Symlinking: /home/moran/duckcatcher_ws/install/roarm_description/share/roarm_description/meshes/roarm_m2/link2.stl
+[5.271s] -- Symlinking: /home/moran/duckcatcher_ws/install/roarm_description/share/roarm_description/meshes/roarm_m2/link3.stl
+[5.292s] -- Symlinking: /home/moran/duckcatcher_ws/install/roarm_description/share/roarm_description/meshes/roarm_m3/base_link.stl
+[5.308s] -- Symlinking: /home/moran/duckcatcher_ws/install/roarm_description/share/roarm_description/meshes/roarm_m3/gripper_left_link.stl
+[5.326s] -- Symlinking: /home/moran/duckcatcher_ws/install/roarm_description/share/roarm_description/meshes/roarm_m3/gripper_link.stl
+[5.346s] -- Symlinking: /home/moran/duckcatcher_ws/install/roarm_description/share/roarm_description/meshes/roarm_m3/link1.stl
+[5.365s] -- Symlinking: /home/moran/duckcatcher_ws/install/roarm_description/share/roarm_description/meshes/roarm_m3/link2.stl
+[5.383s] -- Symlinking: /home/moran/duckcatcher_ws/install/roarm_description/share/roarm_description/meshes/roarm_m3/link3.stl
+[5.403s] -- Symlinking: /home/moran/duckcatcher_ws/install/roarm_description/share/roarm_description/meshes/roarm_m3/link4.stl
+[5.422s] -- Symlinking: /home/moran/duckcatcher_ws/install/roarm_description/share/roarm_description/meshes/roarm_m3/link5.stl
+[5.444s] -- Symlinking: /home/moran/duckcatcher_ws/install/roarm_description/share/roarm_description/urdf/roarm_m2/materials.xacro
+[5.463s] -- Symlinking: /home/moran/duckcatcher_ws/install/roarm_description/share/roarm_description/urdf/roarm_m2/roarm_m2.gazebo
+[5.481s] -- Symlinking: /home/moran/duckcatcher_ws/install/roarm_description/share/roarm_description/urdf/roarm_m2/roarm_m2.trans
+[5.499s] -- Symlinking: /home/moran/duckcatcher_ws/install/roarm_description/share/roarm_description/urdf/roarm_m2/roarm_m2.xacro
+[5.521s] -- Symlinking: /home/moran/duckcatcher_ws/install/roarm_description/share/roarm_description/urdf/roarm_m3/materials.xacro
+[5.538s] -- Symlinking: /home/moran/duckcatcher_ws/install/roarm_description/share/roarm_description/urdf/roarm_m3/roarm_m3.gazebo
+[5.554s] -- Symlinking: /home/moran/duckcatcher_ws/install/roarm_description/share/roarm_description/urdf/roarm_m3/roarm_m3.trans
+[5.573s] -- Symlinking: /home/moran/duckcatcher_ws/install/roarm_description/share/roarm_description/urdf/roarm_m3/roarm_m3.xacro
+[5.590s] -- Symlinking: /home/moran/duckcatcher_ws/install/roarm_description/share/roarm_description/rviz/view_description.rviz
+[5.611s] -- Symlinking: /home/moran/duckcatcher_ws/install/roarm_description/share/ament_index/resource_index/package_run_dependencies/roarm_description
+[5.631s] -- Symlinking: /home/moran/duckcatcher_ws/install/roarm_description/share/ament_index/resource_index/parent_prefix_path/roarm_description
+[5.653s] -- Symlinking: /home/moran/duckcatcher_ws/install/roarm_description/share/roarm_description/environment/ament_prefix_path.sh
+[5.671s] -- Symlinking: /home/moran/duckcatcher_ws/install/roarm_description/share/roarm_description/environment/ament_prefix_path.dsv
+[5.688s] -- Symlinking: /home/moran/duckcatcher_ws/install/roarm_description/share/roarm_description/environment/path.sh
+[5.707s] -- Symlinking: /home/moran/duckcatcher_ws/install/roarm_description/share/roarm_description/environment/path.dsv
+[5.724s] -- Symlinking: /home/moran/duckcatcher_ws/install/roarm_description/share/roarm_description/local_setup.bash
+[5.744s] -- Symlinking: /home/moran/duckcatcher_ws/install/roarm_description/share/roarm_description/local_setup.fish
+[5.763s] -- Symlinking: /home/moran/duckcatcher_ws/install/roarm_description/share/roarm_description/local_setup.sh
+[5.782s] -- Symlinking: /home/moran/duckcatcher_ws/install/roarm_description/share/roarm_description/local_setup.zsh
+[5.800s] -- Symlinking: /home/moran/duckcatcher_ws/install/roarm_description/share/roarm_description/local_setup.dsv
+[5.818s] -- Symlinking: /home/moran/duckcatcher_ws/install/roarm_description/share/roarm_description/package.dsv
+[5.840s] -- Symlinking: /home/moran/duckcatcher_ws/install/roarm_description/share/ament_index/resource_index/packages/roarm_description
+[5.858s] -- Symlinking: /home/moran/duckcatcher_ws/install/roarm_description/share/roarm_description/cmake/roarm_descriptionConfig.cmake
+[5.879s] -- Symlinking: /home/moran/duckcatcher_ws/install/roarm_description/share/roarm_description/cmake/roarm_descriptionConfig-version.cmake
+[5.898s] -- Symlinking: /home/moran/duckcatcher_ws/install/roarm_description/share/roarm_description/package.xml
+[5.921s] Invoked command in '/home/moran/duckcatcher_ws/build/roarm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moran/duckcatcher_ws/install/mission_control:/opt/ros/lyrical /usr/bin/cmake --install /home/moran/duckcatcher_ws/build/roarm_description

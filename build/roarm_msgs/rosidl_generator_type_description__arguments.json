@@ -1,0 +1,18 @@
+{
+  "package_name": "roarm_msgs",
+  "output_dir": "/home/moran/duckcatcher_ws/build/roarm_msgs/rosidl_generator_type_description/roarm_msgs",
+  "idl_tuples": [
+    "/home/moran/duckcatcher_ws/build/roarm_msgs/rosidl_adapter/roarm_msgs:msg/ServoStatus.idl",
+    "/home/moran/duckcatcher_ws/build/roarm_msgs/rosidl_adapter/roarm_msgs:srv/GetPoseCmd.idl",
+    "/home/moran/duckcatcher_ws/build/roarm_msgs/rosidl_adapter/roarm_msgs:srv/MoveJointCmd.idl",
+    "/home/moran/duckcatcher_ws/build/roarm_msgs/rosidl_adapter/roarm_msgs:srv/MoveCircleCmd.idl",
+    "/home/moran/duckcatcher_ws/build/roarm_msgs/rosidl_adapter/roarm_msgs:srv/MoveLineCmd.idl",
+    "/home/moran/duckcatcher_ws/build/roarm_msgs/rosidl_adapter/roarm_msgs:srv/ServoCommandType.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/lyrical/share/std_msgs/",
+    "builtin_interfaces:/opt/ros/lyrical/share/builtin_interfaces/",
+    "geometry_msgs:/opt/ros/lyrical/share/geometry_msgs/",
+    "service_msgs:/opt/ros/lyrical/share/service_msgs/"
+  ]
+}

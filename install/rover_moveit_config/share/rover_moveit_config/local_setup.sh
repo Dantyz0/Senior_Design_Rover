@@ -1,0 +1,1 @@
+/home/moran/duckcatcher_ws/build/rover_moveit_config/ament_cmake_environment_hooks/local_setup.sh

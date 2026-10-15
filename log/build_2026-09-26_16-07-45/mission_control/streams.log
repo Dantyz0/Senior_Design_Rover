@@ -1,0 +1,17 @@
+[1.962s] Invoking command in '/home/moran/duckcatcher_ws/build/mission_control': PYTHONPATH=/home/moran/duckcatcher_ws/build/mission_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/moran/duckcatcher_ws/install/mission_control/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/moran/duckcatcher_ws/build/mission_control/build --no-deps symlink_data
+[2.396s] running develop
+[2.597s] running egg_info
+[2.618s] writing mission_control.egg-info/PKG-INFO
+[2.620s] writing dependency_links to mission_control.egg-info/dependency_links.txt
+[2.620s] writing entry points to mission_control.egg-info/entry_points.txt
+[2.621s] writing requirements to mission_control.egg-info/requires.txt
+[2.621s] writing top-level names to mission_control.egg-info/top_level.txt
+[2.663s] reading manifest file 'mission_control.egg-info/SOURCES.txt'
+[2.665s] writing manifest file 'mission_control.egg-info/SOURCES.txt'
+[2.686s] running build_ext
+[2.686s] Creating /home/moran/duckcatcher_ws/install/mission_control/lib/python3.14/site-packages/mission-control.egg-link (link to .)
+[2.687s] Installing controller script to /home/moran/duckcatcher_ws/install/mission_control/lib/mission_control
+[2.689s] 
+[2.689s] Installed /home/moran/duckcatcher_ws/build/mission_control
+[2.689s] running symlink_data
+[2.786s] Invoked command in '/home/moran/duckcatcher_ws/build/mission_control' returned '0': PYTHONPATH=/home/moran/duckcatcher_ws/build/mission_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/moran/duckcatcher_ws/install/mission_control/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/moran/duckcatcher_ws/build/mission_control/build --no-deps symlink_data

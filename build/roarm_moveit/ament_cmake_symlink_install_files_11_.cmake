@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/moran/duckcatcher_ws/src/roarm_moveit" FILES "/home/moran/duckcatcher_ws/build/roarm_moveit/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/roarm_moveit")

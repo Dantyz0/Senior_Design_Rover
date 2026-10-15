@@ -1,0 +1,1 @@
+/home/moran/duckcatcher_ws/build/roarm_msgs/ament_cmake_environment_hooks/local_setup.zsh

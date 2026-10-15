@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/moran/duckcatcher_ws/src/roarm_msgs" FILES "/home/moran/duckcatcher_ws/build/roarm_msgs/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/roarm_msgs/cmake")

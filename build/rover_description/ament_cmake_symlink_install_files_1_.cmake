@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/moran/duckcatcher_ws/src/rover_description" FILES "/home/moran/duckcatcher_ws/build/rover_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/rover_description" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")

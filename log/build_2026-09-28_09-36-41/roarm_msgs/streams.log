@@ -1,0 +1,251 @@
+[0.811s] Invoking command in '/home/moran/duckcatcher_ws/build/roarm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moran/duckcatcher_ws/install/roarm_driver:/home/moran/duckcatcher_ws/install/mission_control:/opt/ros/lyrical /usr/bin/cmake /home/moran/duckcatcher_ws/src/roarm_msgs -DCMAKE_INSTALL_PREFIX=/home/moran/duckcatcher_ws/install/roarm_msgs
+[0.829s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.829s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.829s]   CMake.
+[0.829s] 
+[0.830s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.830s]   to tell CMake that the project requires at least <min> but has been updated
+[0.830s]   to work with policies introduced by <max> or earlier.
+[0.830s] 
+[0.830s] [0m
+[0.841s] -- Found rosidl_default_generators: 1.8.1 (/opt/ros/lyrical/share/rosidl_default_generators/cmake)
+[1.092s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.107s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.209s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.319s] -- Found rosidl_adapter: 5.2.1 (/opt/ros/lyrical/share/rosidl_adapter/cmake)
+[1.331s] -- Found std_msgs: 5.9.3 (/opt/ros/lyrical/share/std_msgs/cmake)
+[1.429s] -- Found geometry_msgs: 5.9.3 (/opt/ros/lyrical/share/geometry_msgs/cmake)
+[2.231s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.415s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.961s] -- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter Development NumPy Development.Module Development.Embed
+[3.025s] -- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter
+[3.030s] -- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)
+[4.726s] -- Configuring done (3.9s)
+[4.843s] -- Generating done (0.1s)
+[4.871s] -- Build files have been written to: /home/moran/duckcatcher_ws/build/roarm_msgs
+[4.883s] Invoked command in '/home/moran/duckcatcher_ws/build/roarm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moran/duckcatcher_ws/install/roarm_driver:/home/moran/duckcatcher_ws/install/mission_control:/opt/ros/lyrical /usr/bin/cmake /home/moran/duckcatcher_ws/src/roarm_msgs -DCMAKE_INSTALL_PREFIX=/home/moran/duckcatcher_ws/install/roarm_msgs
+[4.885s] Invoking command in '/home/moran/duckcatcher_ws/build/roarm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moran/duckcatcher_ws/install/roarm_driver:/home/moran/duckcatcher_ws/install/mission_control:/opt/ros/lyrical /usr/bin/cmake --build /home/moran/duckcatcher_ws/build/roarm_msgs -- -j16 -l16
+[4.966s] [  2%] Built target roarm_msgs__rs
+[4.967s] [  2%] Built target roarm_msgs__rosidl_generator_type_description
+[5.007s] [  3%] Built target roarm_msgs__cpp
+[5.022s] [ 27%] Built target roarm_msgs__rosidl_generator_c
+[5.072s] [ 36%] Built target roarm_msgs__rosidl_typesupport_c
+[5.074s] [ 45%] Built target roarm_msgs__rosidl_typesupport_introspection_c
+[5.080s] [ 56%] Built target roarm_msgs__rosidl_typesupport_cpp
+[5.081s] [ 67%] Built target roarm_msgs__rosidl_typesupport_introspection_cpp
+[5.081s] [ 74%] Built target roarm_msgs__rosidl_typesupport_fastrtps_c
+[5.136s] [ 83%] Built target roarm_msgs__rosidl_typesupport_fastrtps_cpp
+[5.172s] [ 83%] Built target roarm_msgs
+[5.208s] [ 84%] Built target roarm_msgs__py
+[5.259s] [ 92%] Built target roarm_msgs__rosidl_generator_py
+[5.261s] [ 92%] Built target ament_cmake_python_sync_roarm_msgs
+[5.301s] [ 98%] Built target roarm_msgs_s__rosidl_typesupport_fastrtps_c
+[5.301s] [100%] Built target roarm_msgs_s__rosidl_typesupport_introspection_c
+[5.302s] [100%] Built target roarm_msgs_s__rosidl_typesupport_c
+[5.557s] running egg_info
+[5.576s] writing roarm_msgs.egg-info/PKG-INFO
+[5.577s] writing dependency_links to roarm_msgs.egg-info/dependency_links.txt
+[5.578s] writing top-level names to roarm_msgs.egg-info/top_level.txt
+[5.640s] reading manifest file 'roarm_msgs.egg-info/SOURCES.txt'
+[5.641s] writing manifest file 'roarm_msgs.egg-info/SOURCES.txt'
+[5.721s] [100%] Built target ament_cmake_python_build_roarm_msgs_egg
+[5.740s] Invoked command in '/home/moran/duckcatcher_ws/build/roarm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moran/duckcatcher_ws/install/roarm_driver:/home/moran/duckcatcher_ws/install/mission_control:/opt/ros/lyrical /usr/bin/cmake --build /home/moran/duckcatcher_ws/build/roarm_msgs -- -j16 -l16
+[5.742s] Invoking command in '/home/moran/duckcatcher_ws/build/roarm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moran/duckcatcher_ws/install/roarm_driver:/home/moran/duckcatcher_ws/install/mission_control:/opt/ros/lyrical /usr/bin/cmake --install /home/moran/duckcatcher_ws/build/roarm_msgs
+[5.754s] -- Install configuration: ""
+[5.755s] -- Execute custom install script
+[5.755s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/ament_index/resource_index/rosidl_interfaces/roarm_msgs
+[5.755s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/msg/ServoStatus.json
+[5.756s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/srv/GetPoseCmd.json
+[5.756s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/srv/MoveJointCmd.json
+[5.756s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/srv/MoveCircleCmd.json
+[5.756s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/srv/MoveLineCmd.json
+[5.756s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/srv/ServoCommandType.json
+[5.757s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/msg/detail/servo_status__functions.h
+[5.757s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/msg/detail/servo_status__struct.h
+[5.757s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/msg/detail/servo_status__type_support.h
+[5.758s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/msg/rosidl_generator_c__visibility_control.h
+[5.758s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/msg/servo_status.h
+[5.758s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/get_pose_cmd__functions.h
+[5.759s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/get_pose_cmd__struct.h
+[5.759s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/get_pose_cmd__type_support.h
+[5.759s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/move_circle_cmd__functions.h
+[5.759s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/move_circle_cmd__struct.h
+[5.760s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/move_circle_cmd__type_support.h
+[5.760s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/move_joint_cmd__functions.h
+[5.760s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/move_joint_cmd__struct.h
+[5.760s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/move_joint_cmd__type_support.h
+[5.760s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/move_line_cmd__functions.h
+[5.761s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/move_line_cmd__struct.h
+[5.761s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/move_line_cmd__type_support.h
+[5.761s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/servo_command_type__functions.h
+[5.761s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/servo_command_type__struct.h
+[5.761s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/servo_command_type__type_support.h
+[5.761s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/get_pose_cmd.h
+[5.761s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/move_circle_cmd.h
+[5.761s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/move_joint_cmd.h
+[5.762s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/move_line_cmd.h
+[5.762s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/servo_command_type.h
+[5.762s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/environment/library_path.sh
+[5.762s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/environment/library_path.dsv
+[5.762s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/msg/detail/servo_status__rosidl_typesupport_fastrtps_c.h
+[5.762s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.762s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/get_pose_cmd__rosidl_typesupport_fastrtps_c.h
+[5.763s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/move_circle_cmd__rosidl_typesupport_fastrtps_c.h
+[5.763s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/move_joint_cmd__rosidl_typesupport_fastrtps_c.h
+[5.763s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/move_line_cmd__rosidl_typesupport_fastrtps_c.h
+[5.763s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/servo_command_type__rosidl_typesupport_fastrtps_c.h
+[5.764s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/msg/detail/servo_status__rosidl_typesupport_introspection_c.h
+[5.764s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.764s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/get_pose_cmd__rosidl_typesupport_introspection_c.h
+[5.764s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/move_circle_cmd__rosidl_typesupport_introspection_c.h
+[5.764s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/move_joint_cmd__rosidl_typesupport_introspection_c.h
+[5.764s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/move_line_cmd__rosidl_typesupport_introspection_c.h
+[5.764s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/servo_command_type__rosidl_typesupport_introspection_c.h
+[5.765s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/msg/detail/servo_status__builder.hpp
+[5.765s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/msg/detail/servo_status__struct.hpp
+[5.765s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/msg/detail/servo_status__traits.hpp
+[5.765s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/msg/detail/servo_status__type_support.hpp
+[5.765s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.765s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/msg/servo_status.hpp
+[5.765s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/get_pose_cmd__builder.hpp
+[5.765s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/get_pose_cmd__struct.hpp
+[5.766s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/get_pose_cmd__traits.hpp
+[5.766s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/get_pose_cmd__type_support.hpp
+[5.766s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/move_circle_cmd__builder.hpp
+[5.766s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/move_circle_cmd__struct.hpp
+[5.767s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/move_circle_cmd__traits.hpp
+[5.767s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/move_circle_cmd__type_support.hpp
+[5.768s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/move_joint_cmd__builder.hpp
+[5.768s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/move_joint_cmd__struct.hpp
+[5.768s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/move_joint_cmd__traits.hpp
+[5.769s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/move_joint_cmd__type_support.hpp
+[5.769s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/move_line_cmd__builder.hpp
+[5.769s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/move_line_cmd__struct.hpp
+[5.769s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/move_line_cmd__traits.hpp
+[5.769s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/move_line_cmd__type_support.hpp
+[5.769s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/servo_command_type__builder.hpp
+[5.769s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/servo_command_type__struct.hpp
+[5.769s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/servo_command_type__traits.hpp
+[5.769s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/servo_command_type__type_support.hpp
+[5.769s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/get_pose_cmd.hpp
+[5.769s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/move_circle_cmd.hpp
+[5.769s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/move_joint_cmd.hpp
+[5.769s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/move_line_cmd.hpp
+[5.769s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/servo_command_type.hpp
+[5.770s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/msg/detail/servo_status__rosidl_typesupport_fastrtps_cpp.hpp
+[5.770s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.770s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/get_pose_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[5.771s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/move_circle_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[5.771s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/move_joint_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[5.771s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/move_line_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[5.771s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/servo_command_type__rosidl_typesupport_fastrtps_cpp.hpp
+[5.772s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/msg/detail/servo_status__rosidl_typesupport_introspection_cpp.hpp
+[5.772s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/get_pose_cmd__rosidl_typesupport_introspection_cpp.hpp
+[5.772s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/move_circle_cmd__rosidl_typesupport_introspection_cpp.hpp
+[5.772s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/move_joint_cmd__rosidl_typesupport_introspection_cpp.hpp
+[5.772s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/move_line_cmd__rosidl_typesupport_introspection_cpp.hpp
+[5.772s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/include/roarm_msgs/roarm_msgs/srv/detail/servo_command_type__rosidl_typesupport_introspection_cpp.hpp
+[5.772s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/environment/pythonpath.sh
+[5.772s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/environment/pythonpath.dsv
+[5.773s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/lib/python3.14/site-packages/roarm_msgs/roarm_msgs_s__rosidl_typesupport_fastrtps_c.so
+[5.773s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/lib/python3.14/site-packages/roarm_msgs/roarm_msgs_s__rosidl_typesupport_introspection_c.so
+[5.773s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/lib/python3.14/site-packages/roarm_msgs/roarm_msgs_s__rosidl_typesupport_c.so
+[5.774s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/rust/Cargo.toml
+[5.774s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/rust/build.rs
+[5.774s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/rust/src/lib.rs
+[5.775s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/rust/src/msg.rs
+[5.775s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/rust/src/msg/rmw.rs
+[5.775s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/rust/src/srv.rs
+[5.775s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/rust/src/srv/rmw.rs
+[5.776s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/msg/ServoStatus.idl
+[5.776s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/srv/GetPoseCmd.idl
+[5.776s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/srv/MoveJointCmd.idl
+[5.777s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/srv/MoveCircleCmd.idl
+[5.777s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/srv/MoveLineCmd.idl
+[5.777s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/srv/ServoCommandType.idl
+[5.777s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/msg/ServoStatus.msg
+[5.777s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/srv/GetPoseCmd.srv
+[5.778s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/srv/MoveJointCmd.srv
+[5.778s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/srv/MoveCircleCmd.srv
+[5.778s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/srv/MoveLineCmd.srv
+[5.778s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/srv/ServoCommandType.srv
+[5.778s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/ament_index/resource_index/package_run_dependencies/roarm_msgs
+[5.779s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/ament_index/resource_index/parent_prefix_path/roarm_msgs
+[5.779s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/environment/ament_prefix_path.sh
+[5.779s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/environment/ament_prefix_path.dsv
+[5.779s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/environment/path.sh
+[5.780s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/environment/path.dsv
+[5.780s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/local_setup.bash
+[5.780s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/local_setup.fish
+[5.780s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/local_setup.sh
+[5.780s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/local_setup.zsh
+[5.781s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/local_setup.dsv
+[5.781s] -- Symlinking: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/package.dsv
+[5.795s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/ament_index/resource_index/packages/roarm_msgs
+[5.795s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/lib/python3.14/site-packages/roarm_msgs-0.0.0-py3.14.egg-info/PKG-INFO
+[5.796s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/lib/python3.14/site-packages/roarm_msgs-0.0.0-py3.14.egg-info/SOURCES.txt
+[5.796s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/lib/python3.14/site-packages/roarm_msgs-0.0.0-py3.14.egg-info/dependency_links.txt
+[5.797s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/lib/python3.14/site-packages/roarm_msgs-0.0.0-py3.14.egg-info/top_level.txt
+[5.797s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/lib/python3.14/site-packages/roarm_msgs/__init__.py
+[5.797s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/lib/python3.14/site-packages/roarm_msgs/_roarm_msgs_s.ep.rosidl_typesupport_c.c
+[5.797s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/lib/python3.14/site-packages/roarm_msgs/_roarm_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.797s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/lib/python3.14/site-packages/roarm_msgs/_roarm_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[5.798s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/lib/python3.14/site-packages/roarm_msgs/msg/__init__.py
+[5.798s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/lib/python3.14/site-packages/roarm_msgs/msg/_servo_status.py
+[5.798s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/lib/python3.14/site-packages/roarm_msgs/msg/_servo_status_s.c
+[5.798s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/lib/python3.14/site-packages/roarm_msgs/py.typed
+[5.799s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/lib/python3.14/site-packages/roarm_msgs/roarm_msgs_s__rosidl_typesupport_c.so
+[5.799s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/lib/python3.14/site-packages/roarm_msgs/roarm_msgs_s__rosidl_typesupport_fastrtps_c.so
+[5.799s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/lib/python3.14/site-packages/roarm_msgs/roarm_msgs_s__rosidl_typesupport_introspection_c.so
+[5.799s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/lib/python3.14/site-packages/roarm_msgs/srv/__init__.py
+[5.800s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/lib/python3.14/site-packages/roarm_msgs/srv/_get_pose_cmd.py
+[5.800s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/lib/python3.14/site-packages/roarm_msgs/srv/_get_pose_cmd_s.c
+[5.800s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/lib/python3.14/site-packages/roarm_msgs/srv/_move_circle_cmd.py
+[5.800s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/lib/python3.14/site-packages/roarm_msgs/srv/_move_circle_cmd_s.c
+[5.801s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/lib/python3.14/site-packages/roarm_msgs/srv/_move_joint_cmd.py
+[5.801s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/lib/python3.14/site-packages/roarm_msgs/srv/_move_joint_cmd_s.c
+[5.801s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/lib/python3.14/site-packages/roarm_msgs/srv/_move_line_cmd.py
+[5.801s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/lib/python3.14/site-packages/roarm_msgs/srv/_move_line_cmd_s.c
+[5.801s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/lib/python3.14/site-packages/roarm_msgs/srv/_servo_command_type.py
+[5.801s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/lib/python3.14/site-packages/roarm_msgs/srv/_servo_command_type_s.c
+[5.802s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/cmake/rosidl_cmake-extras.cmake
+[5.802s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.802s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.802s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.803s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[5.803s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.803s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.803s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[5.803s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/cmake/roarm_msgsConfig.cmake
+[5.803s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/cmake/roarm_msgsConfig-version.cmake
+[5.804s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/package.xml
+[5.804s] -- Up-to-date: /home/moran/duckcatcher_ws/install/roarm_msgs/lib/libroarm_msgs__rosidl_generator_c.so
+[5.804s] -- Up-to-date: /home/moran/duckcatcher_ws/install/roarm_msgs/lib/libroarm_msgs__rosidl_typesupport_fastrtps_c.so
+[5.804s] -- Up-to-date: /home/moran/duckcatcher_ws/install/roarm_msgs/lib/libroarm_msgs__rosidl_typesupport_introspection_c.so
+[5.804s] -- Up-to-date: /home/moran/duckcatcher_ws/install/roarm_msgs/lib/libroarm_msgs__rosidl_typesupport_c.so
+[5.804s] -- Up-to-date: /home/moran/duckcatcher_ws/install/roarm_msgs/lib/libroarm_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.804s] -- Up-to-date: /home/moran/duckcatcher_ws/install/roarm_msgs/lib/libroarm_msgs__rosidl_typesupport_introspection_cpp.so
+[5.805s] -- Up-to-date: /home/moran/duckcatcher_ws/install/roarm_msgs/lib/libroarm_msgs__rosidl_typesupport_cpp.so
+[5.805s] -- Up-to-date: /home/moran/duckcatcher_ws/install/roarm_msgs/lib/libroarm_msgs__rosidl_generator_py.so
+[5.805s] -- Up-to-date: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/cmake/export_roarm_msgs__rosidl_generator_cExport.cmake
+[5.806s] -- Up-to-date: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/cmake/export_roarm_msgs__rosidl_generator_cExport-noconfig.cmake
+[5.806s] -- Up-to-date: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/cmake/export_roarm_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[5.806s] -- Up-to-date: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/cmake/export_roarm_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.806s] -- Up-to-date: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/cmake/roarm_msgs__rosidl_typesupport_introspection_cExport.cmake
+[5.807s] -- Up-to-date: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/cmake/roarm_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.807s] -- Up-to-date: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/cmake/roarm_msgs__rosidl_typesupport_cExport.cmake
+[5.807s] -- Up-to-date: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/cmake/roarm_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[5.807s] -- Up-to-date: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/cmake/export_roarm_msgs__rosidl_generator_cppExport.cmake
+[5.807s] -- Up-to-date: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/cmake/export_roarm_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.808s] -- Up-to-date: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/cmake/export_roarm_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.808s] -- Up-to-date: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/cmake/roarm_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[5.808s] -- Up-to-date: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/cmake/roarm_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.808s] -- Up-to-date: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/cmake/roarm_msgs__rosidl_typesupport_cppExport.cmake
+[5.808s] -- Up-to-date: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/cmake/roarm_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[5.808s] -- Up-to-date: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/cmake/export_roarm_msgs__rosidl_generator_pyExport.cmake
+[5.808s] -- Up-to-date: /home/moran/duckcatcher_ws/install/roarm_msgs/share/roarm_msgs/cmake/export_roarm_msgs__rosidl_generator_pyExport-noconfig.cmake
+[5.863s] Listing '/home/moran/duckcatcher_ws/install/roarm_msgs/lib/python3.14/site-packages/roarm_msgs'...
+[5.863s] Compiling '/home/moran/duckcatcher_ws/install/roarm_msgs/lib/python3.14/site-packages/roarm_msgs/__init__.py'...
+[5.864s] Listing '/home/moran/duckcatcher_ws/install/roarm_msgs/lib/python3.14/site-packages/roarm_msgs/msg'...
+[5.864s] Listing '/home/moran/duckcatcher_ws/install/roarm_msgs/lib/python3.14/site-packages/roarm_msgs/srv'...
+[5.880s] Invoked command in '/home/moran/duckcatcher_ws/build/roarm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moran/duckcatcher_ws/install/roarm_driver:/home/moran/duckcatcher_ws/install/mission_control:/opt/ros/lyrical /usr/bin/cmake --install /home/moran/duckcatcher_ws/build/roarm_msgs

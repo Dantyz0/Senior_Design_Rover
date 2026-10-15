@@ -1,0 +1,6 @@
+source;share/roarm_description/hook/cmake_prefix_path.dsv
+source;share/roarm_description/hook/cmake_prefix_path.sh
+source;share/roarm_description/local_setup.bash
+source;share/roarm_description/local_setup.dsv
+source;share/roarm_description/local_setup.sh
+source;share/roarm_description/local_setup.zsh

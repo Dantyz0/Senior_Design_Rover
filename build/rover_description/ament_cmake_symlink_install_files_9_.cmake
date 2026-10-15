@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/moran/duckcatcher_ws/src/rover_description" FILES "/home/moran/duckcatcher_ws/build/rover_description/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/rover_description")

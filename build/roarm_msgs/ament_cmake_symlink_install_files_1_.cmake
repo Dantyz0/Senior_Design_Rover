@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/moran/duckcatcher_ws/src/roarm_msgs" FILES "/home/moran/duckcatcher_ws/build/roarm_msgs/rosidl_generator_type_description/roarm_msgs/msg/ServoStatus.json" "DESTINATION" "share/roarm_msgs/msg")

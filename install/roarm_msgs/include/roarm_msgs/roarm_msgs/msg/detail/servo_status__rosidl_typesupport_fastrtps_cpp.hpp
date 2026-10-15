@@ -1,0 +1,1 @@
+/home/moran/duckcatcher_ws/build/roarm_msgs/rosidl_typesupport_fastrtps_cpp/roarm_msgs/msg/detail/servo_status__rosidl_typesupport_fastrtps_cpp.hpp

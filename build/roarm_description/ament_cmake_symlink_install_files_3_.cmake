@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/moran/duckcatcher_ws/src/roarm_description" FILES "/home/moran/duckcatcher_ws/build/roarm_description/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/roarm_description/environment")

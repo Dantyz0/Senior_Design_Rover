@@ -1,0 +1,1 @@
+/home/moran/duckcatcher_ws/src/rover_moveit_config/launch/move_group.launch.py

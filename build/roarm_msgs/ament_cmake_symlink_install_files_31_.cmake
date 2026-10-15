@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/moran/duckcatcher_ws/src/roarm_msgs" FILES "/home/moran/duckcatcher_ws/build/roarm_msgs/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/roarm_msgs")

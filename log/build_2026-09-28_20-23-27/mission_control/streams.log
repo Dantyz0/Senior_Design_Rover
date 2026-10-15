@@ -1,0 +1,26 @@
+[2.344s] Invoking command in '/home/moran/duckcatcher_ws/src/mission_control': PYTHONPATH=/home/moran/duckcatcher_ws/build/mission_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/moran/duckcatcher_ws/install/mission_control/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mission_control build --build-base /home/moran/duckcatcher_ws/build/mission_control/build install --record /home/moran/duckcatcher_ws/build/mission_control/install.log --install-scripts $base/lib/mission_control --single-version-externally-managed install_data
+[2.828s] running egg_info
+[2.878s] writing ../../build/mission_control/mission_control.egg-info/PKG-INFO
+[2.881s] writing dependency_links to ../../build/mission_control/mission_control.egg-info/dependency_links.txt
+[2.881s] writing entry points to ../../build/mission_control/mission_control.egg-info/entry_points.txt
+[2.882s] writing requirements to ../../build/mission_control/mission_control.egg-info/requires.txt
+[2.882s] writing top-level names to ../../build/mission_control/mission_control.egg-info/top_level.txt
+[2.956s] reading manifest file '../../build/mission_control/mission_control.egg-info/SOURCES.txt'
+[2.959s] writing manifest file '../../build/mission_control/mission_control.egg-info/SOURCES.txt'
+[2.960s] running build
+[2.960s] running build_py
+[2.960s] copying mission_control/__init__.py -> /home/moran/duckcatcher_ws/build/mission_control/build/lib/mission_control
+[2.962s] copying mission_control/mission_controller.py -> /home/moran/duckcatcher_ws/build/mission_control/build/lib/mission_control
+[2.963s] copying mission_control/py.typed -> /home/moran/duckcatcher_ws/build/mission_control/build/lib/mission_control
+[2.964s] running install
+[2.972s] running install_lib
+[3.007s] running install_data
+[3.008s] copying resource/mission_control -> /home/moran/duckcatcher_ws/install/mission_control/share/ament_index/resource_index/packages
+[3.010s] copying package.xml -> /home/moran/duckcatcher_ws/install/mission_control/share/mission_control
+[3.011s] running install_egg_info
+[3.043s] removing '/home/moran/duckcatcher_ws/install/mission_control/lib/python3.14/site-packages/mission_control-0.0.0-py3.14.egg-info' (and everything under it)
+[3.045s] Copying ../../build/mission_control/mission_control.egg-info to /home/moran/duckcatcher_ws/install/mission_control/lib/python3.14/site-packages/mission_control-0.0.0-py3.14.egg-info
+[3.048s] running install_scripts
+[3.212s] Installing controller script to /home/moran/duckcatcher_ws/install/mission_control/lib/mission_control
+[3.213s] writing list of installed files to '/home/moran/duckcatcher_ws/build/mission_control/install.log'
+[3.335s] Invoked command in '/home/moran/duckcatcher_ws/src/mission_control' returned '0': PYTHONPATH=/home/moran/duckcatcher_ws/build/mission_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/moran/duckcatcher_ws/install/mission_control/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mission_control build --build-base /home/moran/duckcatcher_ws/build/mission_control/build install --record /home/moran/duckcatcher_ws/build/mission_control/install.log --install-scripts $base/lib/mission_control --single-version-externally-managed install_data

@@ -1,0 +1,1 @@
+/home/moran/duckcatcher_ws/build/roarm_moveit/ament_cmake_core/roarm_moveitConfig-version.cmake

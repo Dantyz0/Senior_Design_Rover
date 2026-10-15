@@ -1,0 +1,31 @@
+-- The CXX compiler identification is GNU 15.2.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (2.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/moran/duckcatcher_ws/build/rover_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/moran/duckcatcher_ws/install/rover_description/share/rover_description/urdf/rover.urdf.xacro
+-- Symlinking: /home/moran/duckcatcher_ws/install/rover_description/share/rover_description/launch/display.launch.py
+-- Symlinking: /home/moran/duckcatcher_ws/install/rover_description/share/ament_index/resource_index/package_run_dependencies/rover_description
+-- Symlinking: /home/moran/duckcatcher_ws/install/rover_description/share/ament_index/resource_index/parent_prefix_path/rover_description
+-- Symlinking: /home/moran/duckcatcher_ws/install/rover_description/share/rover_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/moran/duckcatcher_ws/install/rover_description/share/rover_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/moran/duckcatcher_ws/install/rover_description/share/rover_description/environment/path.sh
+-- Symlinking: /home/moran/duckcatcher_ws/install/rover_description/share/rover_description/environment/path.dsv
+-- Symlinking: /home/moran/duckcatcher_ws/install/rover_description/share/rover_description/local_setup.bash
+-- Symlinking: /home/moran/duckcatcher_ws/install/rover_description/share/rover_description/local_setup.fish
+-- Symlinking: /home/moran/duckcatcher_ws/install/rover_description/share/rover_description/local_setup.sh
+-- Symlinking: /home/moran/duckcatcher_ws/install/rover_description/share/rover_description/local_setup.zsh
+-- Symlinking: /home/moran/duckcatcher_ws/install/rover_description/share/rover_description/local_setup.dsv
+-- Symlinking: /home/moran/duckcatcher_ws/install/rover_description/share/rover_description/package.dsv
+-- Symlinking: /home/moran/duckcatcher_ws/install/rover_description/share/ament_index/resource_index/packages/rover_description
+-- Symlinking: /home/moran/duckcatcher_ws/install/rover_description/share/rover_description/cmake/rover_descriptionConfig.cmake
+-- Symlinking: /home/moran/duckcatcher_ws/install/rover_description/share/rover_description/cmake/rover_descriptionConfig-version.cmake
+-- Symlinking: /home/moran/duckcatcher_ws/install/rover_description/share/rover_description/package.xml

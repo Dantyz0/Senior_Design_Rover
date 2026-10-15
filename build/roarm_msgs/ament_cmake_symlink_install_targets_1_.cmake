@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/moran/duckcatcher_ws/build/roarm_msgs/rosidl_generator_py/roarm_msgs/roarm_msgs_s__rosidl_typesupport_introspection_c.so" "TARGETS" "roarm_msgs_s__rosidl_typesupport_introspection_c" "DESTINATION" "lib/python3.14/site-packages/roarm_msgs")

@@ -1,0 +1,26 @@
+[0.113s] Invoking command in '/home/moran/duckcatcher_ws/build/rover_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical /usr/bin/cmake --build /home/moran/duckcatcher_ws/build/rover_description -- -j16 -l16
+[1.054s] Invoked command in '/home/moran/duckcatcher_ws/build/rover_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical /usr/bin/cmake --build /home/moran/duckcatcher_ws/build/rover_description -- -j16 -l16
+[1.077s] Invoking command in '/home/moran/duckcatcher_ws/build/rover_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical /usr/bin/cmake --install /home/moran/duckcatcher_ws/build/rover_description
+[1.106s] -- Install configuration: ""
+[1.107s] -- Execute custom install script
+[1.114s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/rover_description/share/rover_description/urdf/rover.urdf.xacro
+[1.114s] -- Symlinking: /home/moran/duckcatcher_ws/install/rover_description/share/rover_description/urdf/rover.urdf.xacro.save
+[1.157s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/rover_description/share/rover_description/launch/display.launch.py
+[1.159s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/rover_description/share/rover_description/launch/gazebo.launch.py
+[1.163s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/rover_description/share/ament_index/resource_index/package_run_dependencies/rover_description
+[1.165s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/rover_description/share/ament_index/resource_index/parent_prefix_path/rover_description
+[1.168s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/rover_description/share/rover_description/environment/ament_prefix_path.sh
+[1.170s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/rover_description/share/rover_description/environment/ament_prefix_path.dsv
+[1.171s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/rover_description/share/rover_description/environment/path.sh
+[1.173s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/rover_description/share/rover_description/environment/path.dsv
+[1.175s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/rover_description/share/rover_description/local_setup.bash
+[1.177s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/rover_description/share/rover_description/local_setup.fish
+[1.178s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/rover_description/share/rover_description/local_setup.sh
+[1.181s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/rover_description/share/rover_description/local_setup.zsh
+[1.183s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/rover_description/share/rover_description/local_setup.dsv
+[1.184s] -- Symlinking: /home/moran/duckcatcher_ws/install/rover_description/share/rover_description/package.dsv
+[1.213s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/rover_description/share/ament_index/resource_index/packages/rover_description
+[1.216s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/rover_description/share/rover_description/cmake/rover_descriptionConfig.cmake
+[1.217s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/rover_description/share/rover_description/cmake/rover_descriptionConfig-version.cmake
+[1.219s] -- Up-to-date symlink: /home/moran/duckcatcher_ws/install/rover_description/share/rover_description/package.xml
+[1.224s] Invoked command in '/home/moran/duckcatcher_ws/build/rover_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical /usr/bin/cmake --install /home/moran/duckcatcher_ws/build/rover_description

@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: rover_description
+    relative_path: urdf/rover.urdf.xacro
+  srdf:
+    relative_path: config/duck_catcher_rover.srdf
+  package_settings:
+    author_name: Daniel
+    author_email: dlmoran@ksu.edu
+    generated_timestamp: 1790605391
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
