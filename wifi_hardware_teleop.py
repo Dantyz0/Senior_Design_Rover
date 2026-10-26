@@ -10,7 +10,7 @@ import threading
 # ==========================================
 # 1. YOUR ROBOT SETTINGS
 # ==========================================
-ROBOT_IP = '10.136.198.81'
+ROBOT_IP = '192.168.4.1'
 
 print(f"Pinging {ROBOT_IP}...")
 try:
