@@ -1,1 +1,0 @@
-/home/moran/duckcatcher_ws/src/rover_moveit_config/launch/static_virtual_joint_tfs.launch.py

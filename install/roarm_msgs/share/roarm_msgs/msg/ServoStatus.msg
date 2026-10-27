@@ -1,1 +1,0 @@
-/home/moran/duckcatcher_ws/src/roarm_msgs/msg/ServoStatus.msg

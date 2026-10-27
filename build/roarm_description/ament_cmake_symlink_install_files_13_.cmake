@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_files("/home/moran/duckcatcher_ws/src/roarm_description" FILES "/home/moran/duckcatcher_ws/build/roarm_description/ament_cmake_core/roarm_descriptionConfig.cmake" "/home/moran/duckcatcher_ws/build/roarm_description/ament_cmake_core/roarm_descriptionConfig-version.cmake" "DESTINATION" "share/roarm_description/cmake")

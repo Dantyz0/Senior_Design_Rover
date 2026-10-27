@@ -1,1 +1,0 @@
-/home/moran/duckcatcher_ws/src/rover_description/launch/display.launch.py

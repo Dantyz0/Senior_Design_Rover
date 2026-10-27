@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/moran/duckcatcher_ws/build/rover_description/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

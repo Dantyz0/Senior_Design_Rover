@@ -1,1 +1,0 @@
-/home/moran/duckcatcher_ws/src/roarm_moveit/launch/roarm_moveit.launch.py

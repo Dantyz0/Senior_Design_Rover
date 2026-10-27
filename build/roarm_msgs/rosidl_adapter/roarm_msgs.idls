@@ -1,6 +1,0 @@
-/home/moran/duckcatcher_ws/build/roarm_msgs/rosidl_adapter/roarm_msgs:msg/ServoStatus.idl
-/home/moran/duckcatcher_ws/build/roarm_msgs/rosidl_adapter/roarm_msgs:srv/GetPoseCmd.idl
-/home/moran/duckcatcher_ws/build/roarm_msgs/rosidl_adapter/roarm_msgs:srv/MoveJointCmd.idl
-/home/moran/duckcatcher_ws/build/roarm_msgs/rosidl_adapter/roarm_msgs:srv/MoveCircleCmd.idl
-/home/moran/duckcatcher_ws/build/roarm_msgs/rosidl_adapter/roarm_msgs:srv/MoveLineCmd.idl
-/home/moran/duckcatcher_ws/build/roarm_msgs/rosidl_adapter/roarm_msgs:srv/ServoCommandType.idl

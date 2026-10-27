@@ -1,2 +1,0 @@
-[console_scripts]
-controller = mission_control.mission_controller:main

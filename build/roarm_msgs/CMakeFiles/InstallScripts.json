@@ -1,9 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/moran/duckcatcher_ws/build/roarm_msgs/cmake_install.cmake",
-		"/home/moran/duckcatcher_ws/build/roarm_msgs/roarm_msgs__py/cmake_install.cmake",
-		"/home/moran/duckcatcher_ws/build/roarm_msgs/roarm_msgs__rs/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

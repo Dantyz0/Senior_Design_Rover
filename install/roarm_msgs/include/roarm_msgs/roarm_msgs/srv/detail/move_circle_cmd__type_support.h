@@ -1,1 +1,0 @@
-/home/moran/duckcatcher_ws/build/roarm_msgs/rosidl_generator_c/roarm_msgs/srv/detail/move_circle_cmd__type_support.h

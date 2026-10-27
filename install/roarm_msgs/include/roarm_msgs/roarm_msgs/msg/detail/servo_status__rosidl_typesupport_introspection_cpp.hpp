@@ -1,1 +1,0 @@
-/home/moran/duckcatcher_ws/build/roarm_msgs/rosidl_typesupport_introspection_cpp/roarm_msgs/msg/detail/servo_status__rosidl_typesupport_introspection_cpp.hpp

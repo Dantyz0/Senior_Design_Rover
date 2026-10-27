@@ -1,1 +1,0 @@
-/home/moran/duckcatcher_ws/build/roarm_moveit/ament_cmake_environment_hooks/local_setup.fish

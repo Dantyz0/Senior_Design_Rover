@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/moran/duckcatcher_ws/build/roarm_moveit/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

@@ -1,1 +1,0 @@
-/home/moran/duckcatcher_ws/src/rover_moveit_config/launch/rsp.launch.py

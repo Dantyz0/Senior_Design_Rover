@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_files("/home/moran/duckcatcher_ws/src/roarm_moveit" FILES "/home/moran/duckcatcher_ws/build/roarm_moveit/ament_cmake_core/roarm_moveitConfig.cmake" "/home/moran/duckcatcher_ws/build/roarm_moveit/ament_cmake_core/roarm_moveitConfig-version.cmake" "DESTINATION" "share/roarm_moveit/cmake")
