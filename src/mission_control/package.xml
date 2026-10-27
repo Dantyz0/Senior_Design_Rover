@@ -3,9 +3,20 @@
 <package format="3">
   <name>mission_control</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="moran@todo.todo">moran</maintainer>
+  <description>Duck-catcher mission: GPS approach, manual arm, dump, home</description>
+  <maintainer email="dlmoran@ksu.edu">Daniel</maintainer>
   <license>TODO: License declaration</license>
+
+  <depend>rclpy</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>std_srvs</depend>
+
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>ament_index_python</exec_depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

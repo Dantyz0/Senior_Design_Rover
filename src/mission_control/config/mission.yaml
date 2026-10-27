@@ -1,0 +1,19 @@
+gps_translator:
+  ros__parameters:
+    home_lat: 38.793000
+    home_lon: -97.583000
+
+mission_controller:
+  ros__parameters:
+    home_x: 0.0
+    home_y: 0.0
+    dropoff_x: 6.0
+    dropoff_y: 4.0
+    max_ducks: 3
+    slow_distance_m: 3.048
+    stop_distance_m: 0.3048
+    cruise_speed: 1.0
+    approach_speed: 0.25
+    heading_kp: 1.8
+    heading_deadband: 0.35
+    dump_pulse_sec: 1.5

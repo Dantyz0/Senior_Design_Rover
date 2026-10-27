@@ -13,7 +13,7 @@
   <xacro:property name="wheel_mass"     value="2.5"/>
   <xacro:property name="wheel_separation" value="0.52"/>
 
-  <!-- Front Casters (Zero-turn setup) -->
+  <!-- Rear casters (front hoverboard drive) -->
   <xacro:property name="caster_radius"  value="0.05"/>
   <xacro:property name="caster_mass"    value="0.75"/>
 
@@ -80,7 +80,7 @@
     <joint name="${prefix}_wheel_joint" type="continuous">
       <parent link="base_link"/>
       <child link="${prefix}_wheel"/>
-      <!-- Positioned toward front (-X) -->
+      <!-- Front of chassis (+X) -->
       <origin xyz="0.25 ${y_reflect * wheel_separation / 2} 0" rpy="-1.5708 0 0"/>
       <axis xyz="0 0 1"/>
     </joint>
@@ -89,7 +89,7 @@
   <xacro:drive_wheel prefix="left"  y_reflect="1" />
   <xacro:drive_wheel prefix="right" y_reflect="-1" />
 
-  <!-- ================= REAR CASTERS ================= -->
+  <!-- ================= REAR CASTERS (trail behind front drive) ================= -->
   <xacro:macro name="caster_wheel" params="prefix y_reflect">
     <link name="${prefix}_caster">
       <visual>
@@ -142,7 +142,7 @@
   </joint>
 
 <!-- ================= GAZEBO SURFACE FRICTION ================= -->
-  <!-- Low friction on front casters so they can slide laterally during zero-turns -->
+  <!-- Low friction on rear casters so they can slide during turns -->
   <gazebo reference="left_caster">
     <mu1 value="0.001"/>
     <mu2 value="0.001"/>
@@ -153,7 +153,7 @@
     <mu2 value="0.001"/>
   </gazebo>
 
-  <!-- High grip on rear hoverboard drive wheels -->
+  <!-- High grip on front hoverboard drive wheels -->
   <gazebo reference="left_wheel">
     <mu1 value="1.0"/>
     <mu2 value="1.0"/>
@@ -279,6 +279,8 @@
       <odom_topic>/odom</odom_topic>
       <frame_id>odom</frame_id>
       <child_frame_id>base_footprint</child_frame_id>
+      <publish_odom>true</publish_odom>
+      <publish_odom_tf>true</publish_odom_tf>
     </plugin>
   </gazebo>
 
