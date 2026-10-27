@@ -1,0 +1,43 @@
+# Tunable RoArm-M2 joint poses for duck pickup practice.
+# Units: radians. Edit these after tabletop testing, then restart duck_pickup.
+#
+# Gripper: open ≈ 1.08 | closed ≈ 3.14
+
+settle_sec: 1.5
+
+poses:
+  home:
+    base_link_to_link1: 0.0
+    link1_to_link2: 0.0
+    link2_to_link3: 1.57
+    link3_to_gripper_link: 3.14
+
+  # Reach toward a duck on the table — STARTING GUESS, tune me
+  approach:
+    base_link_to_link1: 0.0
+    link1_to_link2: -0.6
+    link2_to_link3: 1.8
+    link3_to_gripper_link: 1.08
+
+  # Same reach, gripper closed on the duck
+  grasp:
+    base_link_to_link1: 0.0
+    link1_to_link2: -0.6
+    link2_to_link3: 1.8
+    link3_to_gripper_link: 3.14
+
+  # Lift duck clear of the table
+  lift:
+    base_link_to_link1: 0.0
+    link1_to_link2: -0.2
+    link2_to_link3: 1.4
+    link3_to_gripper_link: 3.14
+
+  # Carry pose over the chassis / basket area
+  tuck:
+    base_link_to_link1: 0.8
+    link1_to_link2: 0.0
+    link2_to_link3: 1.57
+    link3_to_gripper_link: 3.14
+
+sequence: [approach, grasp, lift, tuck]

@@ -3,9 +3,20 @@
 <package format="3">
   <name>roarm_driver</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="effectsmachine@outlook.com">roarm</maintainer>
+  <description>RoArm hardware drivers including ESP-NOW Magic Bridge</description>
+  <maintainer email="dlmoran@ksu.edu">Daniel</maintainer>
   <license>TODO: License declaration</license>
+
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>std_srvs</depend>
+  <depend>ament_index_python</depend>
+
+  <exec_depend>python3-serial</exec_depend>
+  <exec_depend>python3-yaml</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
