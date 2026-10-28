@@ -129,7 +129,19 @@ class EspNowKeyboardTeleop(Node):
         termios.tcsetattr(sys.stdin, termios.TCSADRAIN, self.settings)
 
 
+def _attach_terminal():
+    """ros2 launch does not pass stdin; use this terminal so keys work."""
+    try:
+        if not sys.stdin.isatty():
+            sys.stdin = open('/dev/tty', encoding='utf-8')
+        if not sys.stdout.isatty():
+            sys.stdout = open('/dev/tty', 'w', encoding='utf-8', buffering=1)
+    except OSError:
+        pass
+
+
 def main(args=None):
+    _attach_terminal()
     rclpy.init(args=args)
     node = EspNowKeyboardTeleop()
     try:
