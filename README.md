@@ -1,12 +1,10 @@
-# ESP-NOW Magic Bridge (Arduino)
+# ESP-NOW Magic Bridge (ESP32)
 
 Firmware for the USB ESP32 that sits between the laptop and the robots. This is **not** ROS 2. Flash it in Arduino IDE.
 
-ROS 2 lives on the `main` branch. This `arduino-bridge` branch is for these sketches.
+ROS 2 lives on the `main` branch. This `ESPNOW_bridge` branch is for these sketches.
 
-## Sketches
-
-Open the **folder** in Arduino IDE (sketch name must match the folder).
+Sketches are in `ESP32_code/`. Open the **folder** in Arduino IDE (sketch name must match the folder).
 
 | Sketch | Flash when | What it does |
 |---|---|---|
@@ -19,7 +17,7 @@ Dual sketch: paste the rover ESP32 MAC into `roverMacAddress` before you expect 
 
 ## Copy onto the laptop for Arduino IDE
 
-These files can be copied to `C:\Arduino\` if you prefer IDE sketches outside git:
+If you prefer sketches outside git, copy to `C:\Arduino\`:
 
-- `arduino/ESPNOW_sketch_forriley/`
-- `arduino/ESPNOW_sketch_forriley_dual/`
+- `ESP32_code/ESPNOW_sketch_forriley/`
+- `ESP32_code/ESPNOW_sketch_forriley_dual/`
